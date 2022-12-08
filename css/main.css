@@ -61,13 +61,20 @@ footer a {
 */
 
 
+.columns {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .footer-adress-title {
     font-weight: 900;
     text-transform: uppercase;
+    margin-bottom: 44px;
   }
 
 .footer-contacts-title {
     text-transform: uppercase;
+    margin-bottom: 44px;
   }
 
 .footer-contacts-phone-link {
@@ -82,8 +89,8 @@ footer a {
 
 .footer-schedule-title {
     text-transform: uppercase;
+    margin-bottom: 44px;
   }
-
 
 .content h1,
 .content h2,
