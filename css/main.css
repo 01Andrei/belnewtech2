@@ -51,12 +51,40 @@ footer.footer {
   padding: 1.5rem 0;
   font-size: 1.25rem;
 }
+/* 
 footer strong {
   color: #01A3E3;
 }
 footer a {
   color: #01A3E3;
 }
+*/
+
+
+.footer-adress-title {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+.footer-contacts-title {
+    text-transform: uppercase;
+  }
+
+.footer-contacts-phone-link {
+    color: #FFFBEB;
+    text-decoration: none;
+  }
+  
+.footer-contacts-email-link {
+    color: #FFFBEB;
+    text-decoration: none;
+  }
+
+.footer-schedule-title {
+    text-transform: uppercase;
+  }
+
+
 .content h1,
 .content h2,
 .content h3,
