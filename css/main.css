@@ -51,45 +51,24 @@ footer.footer {
   padding: 1.5rem 0;
   font-size: 1.25rem;
 }
-/* 
-footer strong {
-  color: #01A3E3;
-}
-footer a {
-  color: #01A3E3;
-}
-*/
 
-
-.columns {
+.footer .columns {
   margin: 0 auto;
   width: 80%;
 }
 
-.footer-adress-title {
+.footer-title {
+    text-transform: uppercase;
+    margin-bottom: 44px;
+  }
+
+.column:first-child .footer-title{
     font-weight: 900;
-    text-transform: uppercase;
-    margin-bottom: 44px;
   }
 
-.footer-contacts-title {
-    text-transform: uppercase;
-    margin-bottom: 44px;
-  }
-
-.footer-contacts-phone-link {
+.footer-link {
     color: #FFFBEB;
     text-decoration: none;
-  }
-  
-.footer-contacts-email-link {
-    color: #FFFBEB;
-    text-decoration: none;
-  }
-
-.footer-schedule-title {
-    text-transform: uppercase;
-    margin-bottom: 44px;
   }
 
 .content h1,
