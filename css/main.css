@@ -51,12 +51,26 @@ footer.footer {
   padding: 1.5rem 0;
   font-size: 1.25rem;
 }
-footer strong {
-  color: #01A3E3;
+
+.footer .columns {
+  margin: 0 auto;
+  width: 80%;
 }
-footer a {
-  color: #01A3E3;
-}
+
+.footer-title {
+    text-transform: uppercase;
+    margin-bottom: 44px;
+  }
+
+.column:first-child .footer-title{
+    font-weight: 900;
+  }
+
+.footer-link {
+    color: #FFFBEB;
+    text-decoration: none;
+  }
+
 .content h1,
 .content h2,
 .content h3,
